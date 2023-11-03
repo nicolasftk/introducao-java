@@ -13,12 +13,14 @@ public class TiposPrimitivos {
         boolean verdade = true;
         boolean falso = false;
         char caractere = 125;
+        String nome = "Mirth";
 
         System.out.println("Eu tenho " + idade + " anos.");
         System.out.println(caractere);
         System.out.println(numeroGrande);
         System.out.println(salarioDouble);
         System.out.println(salarioFloat);
+        System.out.println("Olá, meu nome é " + nome);
 
 
     }
