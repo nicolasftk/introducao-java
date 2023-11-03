@@ -29,8 +29,7 @@ public class Operadores {
 
         if (idade >= 30 && salario >= 4500) {
             System.out.println("Salário deste funcionário está dentro da lei.");
-        }
-        else {
+        } else {
             System.out.println("Funcionário irregular de acordo com a lei.");
         }
 
@@ -39,14 +38,11 @@ public class Operadores {
         double valorContaCorrente = 300;
         double valorPoupanca = 3200;
         String compra = "Nintendo Switch OLED";
-        if (valorContaCorrente > 1500 || valorPoupanca > 4000 ){
+        if (valorContaCorrente > 1500 || valorPoupanca > 4000) {
             System.out.println("Você pode comprar o " + compra);
-        }
-        else {
+        } else {
             System.out.println("Você não pode comprar nada este mês.");
         }
-
-
 
 
     }
